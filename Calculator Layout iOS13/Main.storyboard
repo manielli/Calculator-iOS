@@ -220,8 +220,8 @@
                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
                             <constraint firstAttribute="bottom" secondItem="txB-hS-uEQ" secondAttribute="bottom" id="5Io-7m-DAF"/>
-                            <constraint firstItem="txB-hS-uEQ" firstAttribute="leading" secondItem="Ocv-dr-WMp" secondAttribute="leading" id="Jb9-dZ-1rq"/>
-                            <constraint firstItem="Ocv-dr-WMp" firstAttribute="trailing" secondItem="txB-hS-uEQ" secondAttribute="trailing" id="Tid-BL-kj4"/>
+                            <constraint firstItem="txB-hS-uEQ" firstAttribute="leading" secondItem="cux-nb-tfI" secondAttribute="leading" id="Jb9-dZ-1rq"/>
+                            <constraint firstAttribute="trailing" secondItem="txB-hS-uEQ" secondAttribute="trailing" id="Tid-BL-kj4"/>
                             <constraint firstItem="txB-hS-uEQ" firstAttribute="top" secondItem="cux-nb-tfI" secondAttribute="top" id="oQN-Px-0wj"/>
                         </constraints>
                     </view>
