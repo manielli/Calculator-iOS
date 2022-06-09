@@ -159,11 +159,11 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                             </button>
-                            <stackView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" spacing="1" translatesAutoresizingMaskIntoConstraints="NO" id="jxp-gG-F3x">
-                                <rect key="frame" x="-1" y="147" width="144" height="48"/>
+                            <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" distribution="fillEqually" spacing="1" translatesAutoresizingMaskIntoConstraints="NO" id="jxp-gG-F3x">
+                                <rect key="frame" x="0.0" y="147" width="414" height="48"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ghE-zu-oK9">
-                                        <rect key="frame" x="0.0" y="0.0" width="30" height="48"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="103" height="48"/>
                                         <color key="backgroundColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="30"/>
                                         <state key="normal" title="%">
@@ -171,7 +171,7 @@
                                         </state>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ros-cP-dSM">
-                                        <rect key="frame" x="31" y="0.0" width="41" height="48"/>
+                                        <rect key="frame" x="104" y="0.0" width="102.5" height="48"/>
                                         <color key="backgroundColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="30"/>
                                         <state key="normal" title="+/-">
@@ -179,7 +179,7 @@
                                         </state>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4Xg-es-CLv">
-                                        <rect key="frame" x="73" y="0.0" width="40" height="48"/>
+                                        <rect key="frame" x="207.5" y="0.0" width="103" height="48"/>
                                         <color key="backgroundColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="30"/>
                                         <state key="normal" title="AC">
@@ -187,7 +187,7 @@
                                         </state>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="G64-9b-ycy">
-                                        <rect key="frame" x="114" y="0.0" width="30" height="48"/>
+                                        <rect key="frame" x="311.5" y="0.0" width="102.5" height="48"/>
                                         <color key="backgroundColor" red="1" green="0.57810515169999999" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="30"/>
                                         <state key="normal" title="÷">
@@ -199,6 +199,10 @@
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="Ocv-dr-WMp"/>
                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="Ocv-dr-WMp" firstAttribute="trailing" secondItem="jxp-gG-F3x" secondAttribute="trailing" id="7cy-8P-K9B"/>
+                            <constraint firstItem="jxp-gG-F3x" firstAttribute="leading" secondItem="cux-nb-tfI" secondAttribute="leading" id="e1E-iZ-4PE"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="b3E-z2-QY8" sceneMemberID="firstResponder"/>
